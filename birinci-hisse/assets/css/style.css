@@ -1,0 +1,287 @@
+@import
+url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import
+url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* DESKTOP wrapper1 */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper1 {
+    width: 1440px;
+    margin: auto;
+}
+
+.wrapper1 header, .wrapper1 .row1 {
+    margin-left: 121px;
+}
+
+.wrapper1 header nav #logo {
+    margin-top: 21px;
+    margin-bottom: 97px;
+}
+
+.wrapper1 header nav ul {
+    padding-left: 0%;
+    display: flex;
+    list-style-type: none;
+}
+
+.wrapper1 header nav ul li {
+    width: 144px;
+    height: 32px;
+    margin-right: 30px;
+    font-size: 20px;
+    line-height: 23px;
+    font-family: Roboto;
+}
+
+.wrapper1 header nav ul li img {
+    margin-right: 6px;
+}
+
+.wrapper1 .row1 {
+    display: flex;
+}
+
+.wrapper1 .row1 .row1-left {
+    margin-top: 29px;
+}
+
+.wrapper1 .row1 .row1-left h1 {
+    width: 628px;
+    height: 190px;
+    font-size: 80px;
+    line-height: 81.11px;
+    font-family: 'Roboto Slab';
+}
+
+.wrapper1 .row1 .row1-left p {
+    width: 414px;
+    height: 62px;
+    margin-top: -12px;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: Roboto;
+}
+
+.wrapper1 .row1 .row1-right {
+    margin-top: 4px;
+    margin-left: 140px;
+}
+
+.wrapper1 .foot1 {
+    width: 483.63px;
+    height: 200.02px;
+    margin-top: 67.62px;
+    margin-left: 409.39px;
+    margin-bottom: 173.36px;
+    color: white;
+    background-color: #1E4681;
+    border-radius: 5px;
+}
+
+.wrapper1 .foot1 .word {
+    width: 430.59px;
+    height: 113px;
+    margin: 19.26px 27.02px 22.12px 26.03px;
+    padding-top: 19.26px;
+    font-size: 25px;
+    line-height: 32.5px;
+    font-family: 'Roboto Slab';
+}
+
+.wrapper1 .foot1 .foot1-author {
+    width: 280.5px;
+    height: 45.64px;
+    margin-left: 184.61px;
+    font-family: Roboto;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: right;
+}
+
+/* TABLET wrapper1 */
+@media screen and (min-width: 600px) and (max-width: 991.98px) {
+
+    .wrapper1 {
+        width: 834px;
+    }
+
+    .wrapper1 header, .wrapper1 .row1 {
+        margin-left: 70.08px;
+    }
+
+    .wrapper1 header nav #logo {
+        width: 64.87px;
+        height: 38.23px;
+        margin-top: 22px;
+        margin-bottom: 56.18px;
+    }
+
+    .wrapper1 header nav ul li #globus, .wrapper1 header nav ul li #clock, .wrapper1 header nav ul li #calendar {
+        width: 12.74px;
+    }
+
+    .wrapper1 header nav ul li {
+        width: 91px;
+        height: 18.53px;
+        margin-right: 10px;
+        font-size: 12px;
+        line-height: 13.8px;
+    }
+
+    .wrapper1 header nav ul li img {
+        margin-right: 2px;
+    }
+
+    .wrapper1 .row1 .row1-left {
+        margin-top: 7.53px;
+    }
+
+    .wrapper1 .row1 .row1-left h1 {
+        width: 363.72px;
+        height: 110.04px;
+        font-size: 46px;
+        line-height: 46.64px;
+    }
+
+    .wrapper1 .row1 .row1-left p {
+        width: 264px;
+        height: 36px;
+        margin-top: 2.75px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .wrapper1 .row1 .row1-right {
+        margin-top: 2.32px;
+        margin-left: 81.08px;
+    }
+
+    .wrapper1 .row1 .row1-right #group23 {
+        width: 176.77px;
+        height: 217.77px;
+    }
+
+    .wrapper1 .foot1 {
+        width: 280.11px;
+        height: 115.83px;
+        margin-top: 39.17px;
+        margin-left: 237.1px;
+        margin-bottom: 100.41px;
+        border-radius: 2.9px;
+    }
+
+    .wrapper1 .foot1 .word {
+        width: 249.38px;
+        height: 65.45px;
+        margin: 0px 15.65px 8.6px 15.08px;
+        padding-top: 11.15px;
+        font-size: 14px;
+        line-height: 18.2px;
+    }
+
+    .wrapper1 .foot1 .foot1-author {
+        width: 162.46px;
+        height: 26.43px;
+        margin-left: 108.22px;
+        font-size: 12px;
+        line-height: 15.6px;
+    }
+}
+
+/* MOBILE wrapper1 */
+@media screen and (max-width: 599.98px) {
+
+    .wrapper1 {
+        width: 375px;
+    }
+
+    .wrapper1 header, .wrapper1 .row1 {
+        margin-left: 35px;
+    }
+
+    .wrapper1 header nav #logo {
+        width: 52.19px;
+        height: 30.75px;
+        margin-top: 36px;
+        margin-bottom: 45.2px;
+    }
+
+    .wrapper1 header nav ul li #globus, .wrapper1 header nav ul li #clock, .wrapper1 header nav ul li #calendar {
+        width: 10.25px;
+    }
+
+    .wrapper1 header nav ul li {
+        width: 71px;
+        height: 18.53px;
+        margin-right: 2%;
+        font-size: 10px;
+        line-height: 11.5px;
+    }
+
+    .wrapper1 header nav ul li img {
+        margin-right: 2px;
+    }
+
+    .wrapper1 .row1 {
+        display: block;
+    }
+
+    .wrapper1 .row1 .row1-left {
+        margin-top: 8.06px;
+    }
+
+    .wrapper1 .row1 .row1-left h1 {
+        width: 292.63px;
+        height: 88.53px;
+        font-size: 37px;
+        line-height: 37.51px;
+    }
+
+    .wrapper1 .row1 .row1-left p {
+        width: 212.4px;
+        height: 28.96px;
+        margin-top: 2.22px;
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .wrapper1 .row1 .row1-right {
+        margin-top: 0px;
+        margin-left: 166px;
+    }
+
+    .wrapper1 .row1 .row1-right #group23 {
+        width: 141.68px;
+        height: 175.1px;
+    }
+
+    .wrapper1 .foot1 {
+        width: 225.36px;
+        height: 93.19px;
+        margin-top: 38.64px;
+        margin-left: 37.98px;
+        margin-bottom: 75.06px;
+        border-radius: 2.33px;
+    }
+
+    .wrapper1 .foot1 .word {
+        width: 200.64px;
+        height: 52.65px;
+        margin: 0px 12.59px 6.92px 12.13px;
+        padding-top: 8.97px;
+        font-size: 11px;
+        line-height: 14.3px;
+    }
+    .wrapper1 .foot1 .foot1-author {
+        width: 130.7px;
+        height: 21.27px;
+        margin-left: 87.07px;
+        font-size: 10px;
+        line-height: 13px;
+    }
+}
